@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mass and Cycles</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Циклы (вывод в строку через пробел и в столбик)</h2>
+        <div class="task1">
+            <p>1. Вывести числа от 4 до 400 на экран.</p>
+            <p>
+                <button id="task1-btn">Посчитать</button>
+            </p>
+            <p class="task1__out"></p>
+        </div>
+        <div class="task2">
+            <p>2. Вывести числа в последовательности: 4 7 10 13 с помощью цикла.</p>
+            <p>
+                <button id="task2-btn">Посчитать</button>
+            </p>
+            <p class="task2__out"></p>
+        </div>
+        <div class="task3">
+            <p>3. Вывести числа 654 653 652 до нуля.</p>
+            <p>
+                <button id="task3-btn">Посчитать</button>
+            </p>
+            <p class="task3__out"></p>
+        </div>
+        <div class="task4">
+            <p>4. Вывести все годы с 1983 до 2017.</p>
+            <p>
+                <button id="task4-btn">Посчитать</button>
+            </p>
+            <p class="task4__out"></p>
+        </div>
+        <div class="task5">
+            <p>6. Вывести числа -4 -2 0 2 4 6 ...100.</p>
+            <p>
+                <button id="task5-btn">Посчитать</button>
+            </p>
+            <p class="task5__out"></p>
+            <!-- ====================================== -->
+            <h2>Массивы</h2>
+        </div>
+        <div class="mass1">
+            <p>1. Массив [3, 6, 1, 13, 88, 43]. Вывести нулевой, третий элемент.</p>
+            <p>
+                <button id="mass1-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass2">
+            <p>2. Массив ['Hi', "hello", 34, "prima"]. Вывести первый, последний элемент.</p>
+            <p>
+                <button id="mass2-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass3">
+            <p>3. Массив ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Вывести длину массива.</p>
+            <p>
+                <button id="mass3-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass4">
+            <p>4. Массив ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Замените 3 элемент массива на строку 'new element'.</p>
+            <p>
+                <button id="mass4-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass5">
+            <p>5. Массив ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Замените 2 и 4 элемент массива на числа 22 и 44.</p>
+            <p>
+                <button id="mass5-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass6">
+            <p>6. Массив ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Создайте 10 член массива со значением 100.</p>
+            <p>
+                <button id="mass6-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass7">
+            <p>7. Массив ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Создайте 12 член массива со значением 200. Выведите массив. Выведите 11 член массива.</p>
+            <p>
+                <button id="mass7-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass8">
+            <p>8. Дан массив var arr = [31, 24, 35, 47, 12]. Выведите arr[3], arr[60].</p>
+            <p>
+                <button id="mass8-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass9">
+            <p>9. Дан массив var arr = [31, 24, 35, 47, 12]. Выведите arr[f], где переменная f = 1, f=4, f=7 </p>
+            <p>
+                <button id="mass9-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass10">
+            <p>10. Дан массив var arr = ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Выведите arr[i], где переменная i = 1,2,3,4,5.</p>
+            <p>
+                <button id="mass10-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass11">
+            <p>11. Дан массив var arr = ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Выведите arr[i], где переменная i - вводит пользователь.</p>
+            <p>
+                <input id="in11" type="number" placeholder="Enter the [i] of array">
+            </p>
+            <p>
+                <button id="mass11-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass12">
+            <p>12. Дан массив var arr = ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Выведите массив на страницу через пробел.</p>
+            <p>
+                <button id="mass12-btn">Посчитать</button>
+            </p>
+            <p class="mass12__out"></p>
+        </div>
+        <div class="mass13">
+            <p>13. Дан массив var arr = ['Hi', "hello", 34, "prima", 3, 6, 1, 13, 88, 43]. Выведите массив в обратном порядке на страницу через пробел.</p>
+            <p>
+                <button id="mass13-btn">Посчитать</button>
+            </p>
+            <p class="mass13__out"></p>
+        </div>
+        <!-- ======================= -->
+        <!-- INNER CYCLES -->
+        <div class="mass14">
+            <p>14. Массив: arr = [2, 3, [4,5]] Выведите весь массив в консоль. Выведите 0, 1 члены массива. Выведите второй элемент массива.</p>
+            <p>
+                <button id="mass14-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass15">
+            <p>15. Массив: arr = [2, 3, [4,5]] Выведите в консоль элемент arr[2][0] Выведите в консоль элемент arr[2][1]</p>
+            <p>
+                <button id="mass15-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass16">
+            <p>16. Массив: arr = [2, 3, [4,5]] вторым элементом данного массива является тоже массив [4,5] Выведите в консоль длину массива [4,5], для этого запишите правильно: console.log(arr[сюда впишите номер элемента-массива].lenght);</p>
+            <p>
+                <button id="mass16-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass17">
+            <p>17. Дан массив arr = [ 2, [3,4,5], [6,7,8] ]; выведите в консоль число 4, число 8 из этого массива.</p>
+            <p>
+                <button id="mass17-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass18">
+            <p>18. Дан массив arr = [ 2, [3,4,5], [6,7,8] ]; выведите в консоль второй элемент данного массива выведите нулевой элемент этого массива</p>
+            <p>
+                <button id="mass18-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass19">
+            <p>19. Дан массив arr = [ 2, [3,4,5], [6,7,8,9, 11, 12, 13, 14] ]; выведите в консоль все элемент последнего вложенного в него массива</p>
+            <p>
+                <button id="mass19-btn">Посчитать</button>
+            </p>
+        </div>
+        <div class="mass20">
+            <p>20. Дан массив arr = [ ['hi', 3, 'beta'], ['foo', 'jam', 'tritto'] ]; выведите в консоль foo и beta из этого массива.</p>
+            <p>
+                <button id="mass20-btn">Посчитать</button>
+            </p>
+        </div>
+    </div>
+    <footer>
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
